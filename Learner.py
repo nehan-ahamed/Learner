@@ -227,29 +227,7 @@
 #    print('The user is offline')
 
 
-# Creating A Calculator In Python
 
-#1. Find what operation the user is trying to do ( addition/subtraction/multiplication/division)
-#2. Tell the user to input the numbers
-#3. Perform the operation
-import math
-#pi = math.pi
-#numbers = float(input('Enter number: '))
-#operation = input('What operation would you like to perform? Please type one of the following: add/+, subtract/-, multiply/*, divide/: ').lower()
-#number2 = float(input('Enter number: '))
-#if operation == 'add':
-#    print(numbers + number2)
-#elif operation == 'subtract':
-#    print(numbers - number2)
-#elif operation =='multiply':
-#    print(numbers * number2)
-#elif operation =='divide':
-#    if number2 == 0:
-#        print('Cannot divide by zero')
-#   else:
-#     print(numbers / number2)
-#else:
-#    print('Invalid operation')
 
 #Try and except (non BroCode)
 
@@ -265,55 +243,6 @@ import math
 
 #TO give a certian decimal place use :.2f the 2 represents no. of decimal places
 
-# q_to_user= input('What type of calculation would you like to do? (add|+ , subtract|- , multiply|* , divide|/): ').lower()
-# if q_to_user == 'add' or q_to_user == '+':
-#     no1 = float(input('Enter the first number: '))
-#     no2 = float(input('Enter the second number: '))
-#     total = no1 + no2
-#     while True:
-#         no3 = input('Enter more number? (type done to calculate): ')
-#         if no3 == 'done':
-#             break
-#         total += float(no3)
-#     print(f'The total is: {total}')
-# elif q_to_user == 'subtract' or q_to_user == '-':
-#     no1 = float(input('Enter the first number: '))
-#     no2 = float(input('Enter the second number: '))
-#     total = no1 - no2
-#     while True:
-#         no3 = input('Enter more number? (type done to calculate): ')
-#         if no3 == 'done':
-#             break
-#         total -= float(no3)
-#     print(f'The total is: {total}')
-# elif q_to_user == 'multiply' or q_to_user == '*':
-#     no1 = float(input('Enter the first number: '))
-#     no2 = float(input('Enter the second number: '))
-#     total = no1 * no2
-#     while True:
-#         no3 = input('Enter more number? (type done to calculate): ')
-#         if no3 == 'done':
-#             break
-#         total *= float(no3)
-#     print(f'The total is: {total}')
-# elif q_to_user == 'divide' or q_to_user == '/':
-#     no1 = float(input('Enter the first number: '))
-#     no2 = float(input('Enter the second number: '))
-#     if no2 == 0:
-#         print('You cannot divide by zero')
-#     else:
-#         total = no1 / no2
-#         while True:
-#             no3 = input('Enter more number? (type done to calculate): ')
-#             if no3 == 'done':
-#                 break
-#             elif float(no3) == 0:
-#                 print('You cannot divide by zero')
-#                 continue
-#             total /= float(no3)
-#         print(f'The total is: {total}')
-# else:
-#     print('Invalid input please try again')
 
 
 
